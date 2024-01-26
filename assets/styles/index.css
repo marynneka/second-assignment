@@ -1,0 +1,50 @@
+      h1 {
+        text-align: center;
+        color: red;
+      }
+      body {
+        background-color: azure;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        justify-content: space-around;
+        align-items: center;
+      }
+      form {
+        background-color: antiquewhite;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0 60px;
+      }
+      label {
+        text-align: center;
+        font-size: larger
+      }
+      select {
+        border-radius: 8px;
+        width: 80%;
+        height: 30px;
+        margin: auto;
+        border-color: red;
+        
+      }
+      input {
+        border-radius: 8px;
+        border: 2px solid;
+        width: 70%;
+        height: 25px;
+        padding: 0 60px;
+        border-color: red;
+      }
+      input[type="submit"] {
+        background-color: #0e8561;
+        border-color: rgb(66, 61, 71);
+        border-radius: 8px;
+        width: 50%;
+        height: 30px;
+        margin: auto;
+        
+      }
+    
